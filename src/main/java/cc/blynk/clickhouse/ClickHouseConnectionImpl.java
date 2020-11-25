@@ -452,11 +452,11 @@ public final class ClickHouseConnectionImpl implements ClickHouseConnection {
         return 0;
     }
 
-    String getUrl() {
+    public String getUrl() {
         return url;
     }
 
-    ClickHouseProperties getProperties() {
+    public ClickHouseProperties getProperties() {
         return properties;
     }
 }
